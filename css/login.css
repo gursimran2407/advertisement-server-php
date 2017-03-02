@@ -1,0 +1,320 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/*--reset--*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/*--start editing from here--*/
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*--end reset--*/
+body {
+    font-family: 'Dosis', sans-serif;
+    background:#1abc9c;
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
+/*--main--*/
+.main {
+    padding: 3em 0 0;
+}
+.main-row {
+    width: 35%;
+    margin: 4em auto;
+    background: url(../img/login/bg.jpg)no-repeat center 0px;
+    background-size: cover;
+}
+.agileits-top {
+    padding: 3em;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 4px solid #e42148;
+}
+input[type="text"],input[type="password"]{
+    font-size: 1em;
+    color: #fff;
+	margin: 3em 0 0;
+    width: 94%;
+    display: block;
+    border: none;
+    padding: 1em;
+    border-bottom: solid 1px #fff;
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #fff 4%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
+    background-position: -800px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}  
+.text:focus, .text:valid {
+	box-shadow: none;
+	outline: none;
+	background-position: 0 0;
+}
+.text:focus::-webkit-input-placeholder, .text:valid::-webkit-input-placeholder {
+	color: #1abc9c;
+	font-size: .9em;
+	-webkit-transform: translateY(-20px);
+	transform: translateY(-20px);
+	visibility: visible !important;
+}
+::-webkit-input-placeholder {
+   color: #fff; 
+   font-family: 'Dosis', sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+   font-family: 'Dosis', sans-serif;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff; 
+   font-family: 'Dosis', sans-serif;
+}
+
+:-ms-input-placeholder {  
+   color: #fff; 
+   font-family: 'Dosis', sans-serif;
+} 
+input[type="submit"] {
+    font-size: 1em;
+    color: #fff;
+    background: #ed143d;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 3em 0;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+    transition: .5s all;
+}
+input[type="submit"]:hover {
+    background: #1abc9c;
+    -webkit-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+	-o-transform: translateY(8px);
+	-ms-transform: translateY(8px);
+    transform: translateY(8px);
+	-webkit-box-shadow: 0 3px 3px 0 rgb(12, 12, 12);
+	-moz-box-shadow: 0 3px 3px 0 rgb(12, 12, 12); 
+    box-shadow: 0 3px 3px 0 rgb(12, 12, 12);
+}
+.agileits-top p {
+    font-size: 1.1em;
+    color: #fff; 
+    text-align: center;
+    letter-spacing: 5px;
+}
+.agileits-top p a {
+    color: #fff;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+    transition: .5s all;
+}
+.agileits-top p a:hover{
+    color: #1abc9c; 
+}
+/*--copyright--*/
+.copyright {
+    margin: 2em 0 1em;
+    text-align: center;
+}
+.copyright p {
+    font-size: 1em;
+    color: #fff;
+	line-height:1.8em;
+}
+.copyright p a{
+    color: #fff;
+}
+.copyright p a:hover{
+    color: #000;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+/*--//copyright--*/
+/*--//main--*/
+/*-- responsive-design --*/
+@media(max-width:1440px){
+.main-row { 
+    margin: 3em auto; 
+}
+.main {
+    padding: 2em 0 0;
+}
+}
+@media(max-width:1366px){
+}
+@media(max-width:1280px){
+.main-row {
+    width: 40%; 
+}
+input[type="text"], input[type="password"] { 
+    width: 92%; 
+}
+}
+@media(max-width:1080px){
+.main-row {
+    width: 46%;
+}
+h1 {
+    font-size: 2.8em; 
+}
+.main-row {
+    margin: 2em auto;
+}
+}
+@media(max-width:1024px){
+}
+@media(max-width:991px){
+h1 {
+    font-size: 2.6em;
+}
+input[type="text"], input[type="password"] {
+    width: 91%;
+	margin: 2em 0 0; 
+}
+input[type="submit"] { 
+    padding: 0.9em; 
+}
+}
+@media(max-width:900px){
+.main {
+    padding: 1.5em 0 0;
+}
+}
+@media(max-width:800px){
+.agileits-top {
+    padding: 2.5em; 
+}
+.main-row {
+    width: 53%;
+}
+}
+@media(max-width:768px){
+.main-row {
+    width: 55%;
+}
+h1 {
+    font-size: 2.4em;
+}
+input[type="submit"] {
+    padding: 0.8em;
+    margin: 2.5em 0;
+}
+}
+@media(max-width:640px){
+h1 {
+    font-size: 2.2em;
+}
+.main {
+    padding: 1em 0 0;
+}
+input[type="text"], input[type="password"] { 
+    margin: 1.5em 0 0;
+	width: 89%;
+}
+.main-row {
+    width: 60%;
+	margin: 1.5em auto;
+}
+}
+@media(max-width:480px){
+h1 {
+    font-size: 2em;
+}
+.agileits-top {
+    padding: 2em;
+}
+input[type="text"], input[type="password"] {
+    width: 89%;
+}
+.main-row {
+    width: 75%;
+}
+input[type="submit"] { 
+    font-size: 0.9em;
+	margin: 2.5em 0 2em;
+}
+.agileits-top p {
+    font-size: 1em; 
+    letter-spacing: 3px;
+}
+}
+@media(max-width:414px){
+.agileits-top {
+    padding: 1.5em;
+}
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 1em .8em;
+}
+.copyright p {
+    font-size: 0.9em; 
+    padding: 0 1em;
+}
+}
+@media(max-width:384px){
+.main-row {
+    width: 78%;
+}
+}
+@media(max-width:375px){
+}
+@media(max-width:320px){
+h1 {
+    font-size: 1.6em;
+}
+.main-row {
+    width: 85%;
+    margin: 1.2em auto;
+}
+input[type="text"], input[type="password"] {
+    width: 88%;
+    padding: 1em .8em;   
+	margin: 1em 0 0;
+}
+input[type="text"]{
+	margin: 0;
+}
+.agileits-top p { 
+    letter-spacing: 1px;
+}
+input[type="submit"] {
+    font-size: 0.8em;
+    margin: 2.5em 0 1.5em;
+}
+}
+/*-- //responsive-design --*/
